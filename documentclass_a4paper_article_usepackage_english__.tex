@@ -48,7 +48,21 @@ with randomly added NaCl ions in the box while maintaining a 150mM concentration
 13 700 atoms for the tubulin dimer, 136 000 water molecules, and 300 ions (approx. 60\% Na 40\% Cl due to the high
 negative charge of the C-termini).
 
-The second minimization step is exactly the same during 5000 steps to prevent any water clashes with the molecule.
+The second minimization step is done under the same set of parameters during 5000 steps to prevent any water
+clashes with the tubulin. The next stage before production phase consists of a two-steps equilibration procedure,
+an NVT equilibration followed by an NPT equilibration. Each stage lasted 100 ps, with an integration step of 2 fs.
+Temperature was fixed at 300 K using velocity rescale method, all bonds were constrained with the LINCS algorithm,
+electrostatic interactions were computed with the Particular Mesh Ewald method. For the pressure coupling during
+the NPT equilibration, we used Parinello-Rahman method at the value of 1 atm.
+
+The production run were then performed with the same set of parameters and algorithms during 100 ns. Trajectories
+were saved every 10 ps, and the analysis were made on the last 95 ns, considering the first 5 ps as equilibration
+period.
+
+After obtaining the simulation data, we processed them with the Gromacs 5.0.4 utilities for basics observations and with
+VMD 1.9 for the graphical part.
+
+%add matmet about analysis with R/python/Tcl script, clusters selection when done, RMSD/RMSF, etc.
 
 
 %For the creation of the Human tubulin alpha and the two Human tubulin beta (1 and 3), we used the program
