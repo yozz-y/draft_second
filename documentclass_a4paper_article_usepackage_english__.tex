@@ -30,41 +30,52 @@ Your abstract.
 %beta3 sequence id => Q13509
 
 For this study, we have modeled two different tublins isotypes, the \alpha1\beta1 and the \alpha1\beta3. Each
-subunit was modeled independently with the same template, a double dimer in complex with the stathmin 
-(PDB entry : 1SA0), chosen for the highest identity among tubulin crystal structures (cf table x) (despite 
+subunit was modeled independently with the same template, a double dimer in complex with the stathmin
+(PDB entry : 1SA0), chosen for the highest identity among tubulin crystal structures (cf table x) (despite
 being a curved conformation). The modelisation process was done with the program Modeller v9.14 (ref modeller).
-The human tubulin sequences were obtained on the UniProtKB website and can be found with the accession number 
-Q71U36 for the \alpha subunit, Q9H4B7 and Q13509 for the \beta1 and \beta3 respectively. After the modelisation 
-of each subunit, we reassembled them as a straight tubulin dimer with a spatial alignment on the best resolution 
+The human tubulin sequences were obtained on the UniProtKB website and can be found with the accession number
+Q71U36 for the \alpha subunit, Q9H4B7 and Q13509 for the \beta1 and \beta3 respectively. After the modelisation
+of each subunit, we reassembled them as a straight tubulin dimer with a spatial alignment on the best resolution
 crystal for this conformation (PDB entry : 1JFF, the PDB we used in our previous study).
 
-After this step, 
+After this step, we submitted all models previously obtained to classic molecular dynamic simulation (five
+models for each isotypes modeled) in order to relax the structure and to explore the structural variability
+of the C-termini newly modeled. The simulation were made with Gromacs 5.0.4 with the OPLS-AA forcefield in,
+periodic boundary condition. The procedure consist of two steps of minimization, the first one is an
+\it{in vacuo} during 1000 steps without any constraints using steepest descent algorithm, followed by the addition
+of a water box of 2 nm around the tubulin filled with TIP3P molecule model and neutralization of the system
+with randomly added NaCl ions in the box while maintaining a 150mM concentration. The total system contain around
+13 700 atoms for the tubulin dimer, 136 000 water molecules, and 300 ions (approx. 60\% Na 40\% Cl due to the high
+negative charge of the C-termini).
 
-%For the creation of the Human tubulin alpha and the two Human tubulin beta (1 and 3), we used the program 
-%Modeller version 9.14. The template is the same for every modeled subunit, a tubulin double dimer in complex 
-%with the stathmin (PDB entry : 1SA0), which was chosen due to the highest identity among tubulin crystal 
-%structures (cf table x) (despite being a curved conformation). The subunits were modeled independently 
-%and assembled after by spatial alignment in straight tubulin dimer with crystal structure of straight 
+The second minimization step is exactly the same during 5000 steps to prevent any water clashes with the molecule.
+
+
+%For the creation of the Human tubulin alpha and the two Human tubulin beta (1 and 3), we used the program
+%Modeller version 9.14. The template is the same for every modeled subunit, a tubulin double dimer in complex
+%with the stathmin (PDB entry : 1SA0), which was chosen due to the highest identity among tubulin crystal
+%structures (cf table x) (despite being a curved conformation). The subunits were modeled independently
+%and assembled after by spatial alignment in straight tubulin dimer with crystal structure of straight
 %tubulin with best the resolution (PDB entry : 1JFF).
 %\\
-%After this first step, we made simulation for 250/350ns of each Human tubulin dimer to avoid any steric 
-%clash and to observe the spatial exploration of the C-termini newly modeled. Then, we made clustering on the 
-%complete dimer and also on the dimer without considering the highly mobile C-termini to obtain the most 
+%After this first step, we made simulation for 250/350ns of each Human tubulin dimer to avoid any steric
+%clash and to observe the spatial exploration of the C-termini newly modeled. Then, we made clustering on the
+%complete dimer and also on the dimer without considering the highly mobile C-termini to obtain the most
 %representatives structures to perform docking with the NFL-TBS.40-63 peptide.
 %
 %\subsection{Docking}
 %
-%After obtaining models of the Human tubulin, we made docking with the NFL-TBS.40-63 peptide with the same 
-%representatives structures that we used in our previous study (\cite{nfltbs40-63_tubulin_monpapier}. We docked 
-%on the representative structure of the tubulin found at the previous step without the C-termini in order to 
-%know if a Human tubulin will have the same behavior as crystal structure previously used (PBD entry : 1JFF). 
-%We also extract the best results found during this docking step to add the most commons positions of 
-%the C-termini on a docked tubulin for further simulations. 
+%After obtaining models of the Human tubulin, we made docking with the NFL-TBS.40-63 peptide with the same
+%representatives structures that we used in our previous study (\cite{nfltbs40-63_tubulin_monpapier}. We docked
+%on the representative structure of the tubulin found at the previous step without the C-termini in order to
+%know if a Human tubulin will have the same behavior as crystal structure previously used (PBD entry : 1JFF).
+%We also extract the best results found during this docking step to add the most commons positions of
+%the C-termini on a docked tubulin for further simulations.
 %
 %\subsection{C-termini study and interaction}
 %
-%After theses steps, we took into account for the following test the C-termini in order to evaluate their 
-%influence and behavior. This will allow us to have a better understanding of the potentials interactions and 
+%After theses steps, we took into account for the following test the C-termini in order to evaluate their
+%influence and behavior. This will allow us to have a better understanding of the potentials interactions and
 %influences of the C-termini on the part already studied earlier in this paper or in our previous studies.
 %
 %This is a test for the github editor :).
