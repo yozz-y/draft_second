@@ -6,7 +6,8 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 
-\title{draft papier 2}
+\title{A comparative investigation of the C-terminal tails mobility in the \beta~I
+and \beta~III isoformsof tubulin.}
 
 \author{Laurin Y.}
 
@@ -23,7 +24,7 @@ Your abstract.
 
 \section{Material and methods}
 
-\subsection{Tubulin C-termini modelization}
+\subsection{Human complete tubulin modelization}
 
 %alpha sequence id => Q71U36
 %beta1 sequence id => Q9H4B7
@@ -33,13 +34,21 @@ For this study, we have modeled two different tublins isotypes, the \alpha1\beta
 subunit was modeled independently with the same template, a double dimer in complex with the stathmin
 (PDB entry : 1SA0), chosen for the highest identity (cf table x), most recently reviewed and more complete
 among all crystal structures (despite being a curved conformation). It is also the best structure of tubulin
-already integrated in the model database of the Modeller program which we used for the modelisation process (v9.14).
+already integrated in the model database of the Modeller program which we used for the modelization process (v9.14).
 (The tubulin type model already present in the Modeller v9.14 database are 1SA0, 1TUB and FtZ like domain models, the
-bacterial counterpart of the tubulin).
+prokaryote counterpart of the tubulin).
+Modeller process is based on the classic comparative modeling method which consists of four
+sequential steps : template selection, template-target alignment, model building and finally
+model evalutaion. For the template selection, Modeller use the 3D-template matching method
+(pariwise alignement with known structure only, present in an associated database). The next
+step consist of an alignment between the query sequence and the structure template. In our
+case, the similarity belong to the best possible template alignement, so it do not need any manual
+rearrangement regarding gaps. The model building depend on the global alignment quality and the overall
+completeness 
 %The modelisation process was done with the program Modeller v9.14 (ref modeller).
 The human tubulin sequences were obtained on the UniProtKB
 website and can be found with the accession number Q71U36 for the \alpha subunit, Q9H4B7 and Q13509
-for the \beta1 and \beta3 subunits respectively. After the modelisation of each part independently, we reassembled them
+for the \beta1 and \beta3 subunits respectively. After the modelization of each part independently, we reassembled them
 as a straight tubulin dimer with a spatial alignment on the best resolution crystal for this conformation
 (PDB entry : 1JFF, the PDB we used in our previous study).
 
@@ -80,6 +89,9 @@ The production run were then performed with the same set of parameters and algor
 were saved every 10 ps, and the analysis were made on the last 95 ns, considering the first 5 ps as equilibration
 period.
 
+% add description of the modelization process => template selection based on ? loop modeling and C-ter modeling
+% side chain optimization
+
 \subsection{Trajectory analysis}
 
 After obtaining the simulation data, we processed them with the Gromacs 5.0.4 utilities for basics observations and
@@ -94,6 +106,22 @@ simulations. Cutoff for the clustering was 1.5 {\AA}.
 
 %add matmet about analysis with R/python/Tcl script, clusters selection when done, RMSD/RMSF, etc.
 
+
+\section{Results}
+
+\subsection{Model building}
+
+%table with model scores, discussion about similarity with existing model in databases, main differences b1/b3
+
+\subsection{\beta-subunit C-terminal tail orientation and folding}
+
+%plot theta/phi, gyration, corelation between the 2 factors, main difference b1 and b3
+
+\subsection{Contacts \beta-subunt C-terminal with the tubulin core}
+
+%contacts plots with differences of b1 and b3, mapping of the contacts zones
+
+\section{Discussion}
 
 %For the creation of the Human tubulin alpha and the two Human tubulin beta (1 and 3), we used the program
 %Modeller version 9.14. The template is the same for every modeled subunit, a tubulin double dimer in complex
