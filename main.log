@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 17:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 17:31
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -656,12 +656,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130   \caption
+l.127   \caption
                 {Alignment scoring for all possible candidate templates. PDB...
 
 ? 
 
-Overfull \hbox (13.66731pt too wide) in paragraph at lines 112--133
+Overfull \hbox (13.66731pt too wide) in paragraph at lines 109--130
  [] 
  []
 
@@ -683,7 +683,7 @@ e1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
 r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/share/texmf-texlive/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (4 pages, 123285 bytes).
+Output written on main.pdf (4 pages, 123267 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
