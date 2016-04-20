@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 15:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 16:54
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -636,402 +636,83 @@ LaTeX Font Info:    ... okay on input line 16.
 \MPscratchDim=\dimen161
 \MPnumerator=\count129
 \everyMPtoPDFconversion=\toks34
-) ABD: EveryShipout initializing macros
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 \maketitle
-               
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 \maketitle
-               
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.17 \maketitle
-               
-? 
-! Extra }, or forgotten \endgroup.
-\@maketitle ...note \thanks {\LARGE \@title \par }
-                                                  \vskip 1.5em{\large \lines...
-l.17 \maketitle
-               
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.25 Tubulin, a structural protein \alpha
-                                         /\beta heterodimer, is the building...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 
-     
-? 
-
-Overfull \hbox (1141.5806pt too wide) in paragraph at lines 25--33
-\OT1/cmr/m/n/10 Tubulin, a struc-tural pro-tein $\OML/cmm/m/it/10 =^^Lheterodi
-mer; isthebuildingblockofmicrotubules\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 MT\OT1/c
-mr/m/n/10 )\OML/cmm/m/it/10 :Eachsubunitand^^Lisexpressedinthecellbymultiplege
-neswhichleadtodifferentisotypes\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 upto\OT1/cmr/m
-/n/10 8\OML/cmm/m/it/10 forthehuman^^Lsubunit\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 
-:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ref\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 Mostoft
-hetime; isotypesarehighlyconservedduringevolutionsuggestingafunctionalimportanc
-e:Tubulinsarearrangedinahead \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (915.4695pt too wide) in paragraph at lines 25--33
-\OML/cmm/m/it/10 to \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 tailfashiontoform\OT1
-/cmr/m/n/10 13\OML/cmm/m/it/10 protofilamentsconstitutingtheMTs:Mtsexhibitadyna
-micinstabilitywhichisessentialfortheirbiologicalactivitysinceMTsarecytoskeletal
-componentsthatarecriticallyinvolvedinseveralkeycellularprocesssuchasmitosis; in
-tracellulartransportorcellmotility:\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ref\OT1/cm
-r/m/n/10 )$ 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.44 ...cal tubulin binding drugs target the \beta
-                                                   subunit
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.52 
-     
-? 
-
-Overfull \hbox (1334.70692pt too wide) in paragraph at lines 44--52
-[]\OT1/cmr/m/n/10 Despite the fact that most clin-i-cal tubu-lin bind-ing drugs
- tar-get the $\OML/cmm/m/it/10 ^^Lsubunitofthedimer; animportantissueisleftunan
-sweredregardingthetubulinisotypeswhichshouldbespecificallytargetedincancerchemo
-therapy\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ref\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :
-Indeed; recentstudiesshowthatglioblastomas; themostcommonprimarybraintumors; ex
-hibitanabnormal^^LsubunitexpressionwithanproliferationoftheclassIII^^L \OMS/cms
-y/m/n/10 ^^@
- []
-
-
-Overfull \hbox (600.7801pt too wide) in paragraph at lines 44--52
-\OML/cmm/m/it/10 tubulin; whichisassociatedwithhighlymalignanttumorphenotype:Th
-isoverexpressionisalsorelatedwithapaclitaxelresistance\OT1/cmr/m/n/10 (\OML/cmm
-/m/it/10 ref\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :Theselectivityofthisparticularis
-otypecouldbeakeytoasuccessfuldrugdesignprocess:$ 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.61 ...s of two complete human tubulins of \alpha
-                                                  1\beta1 and
-? 
-! Undefined control sequence.
-l.62 \alhpa
-           1\beta3 isotypes. Furthermore, we investigated the C-termini of \...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 
-     
-? 
-
-Overfull \hbox (223.21967pt too wide) in paragraph at lines 61--65
-[]\OT1/cmr/m/n/10 We present a mod-eli-sa-tion pro-cess of two com-plete hu-man
- tubu-lins of $\OML/cmm/m/it/10 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ^^L\OT1/cmr/
-m/n/10 1\OML/cmm/m/it/10 and\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ^^L\OT1/cmr/m/n/1
-0 3\OML/cmm/m/it/10 isotypes:Furthermore; weinvestigatedtheC \OMS/cmsy/m/n/10 ^
-^@
- []
-
-
-Overfull \hbox (398.01282pt too wide) in paragraph at lines 61--65
-\OML/cmm/m/it/10 terminiof^^Lsubunitstructuralorganisationandinteractionwiththe
-corepartsofthetubulin; usingmultiplemoleculardynamicsimulations:Ourresultsshow:
-::Tobecontinued:$ 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.74 ...two different tubulin isotypes, the \alpha
-                                                  1\beta1 and the \alpha1\be...
-
-? 
-! Undefined control sequence.
-l.94 ...lding, Modeller proceed by doing an \texit
-                                                  {Ab-initio}
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.106 
-      
-? 
-
-Overfull \hbox (532.07043pt too wide) in paragraph at lines 74--106
-\OT1/cmr/m/n/10 For this study, we have mod-eled two dif-fer-ent tubu-lin iso-t
-ypes, the $\OML/cmm/m/it/10 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ^^L\OT1/cmr/m/n/
-10 1\OML/cmm/m/it/10 andthe\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ^^L\OT1/cmr/m/n/1
-0 3\OML/cmm/m/it/10 :Eachsubunitwasmodeledindependentlywiththesametemplate; ado
-ubledimerincomplexwiththestathmin\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 PDBentry \OT
-1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (2085.42519pt too wide) in paragraph at lines 74--106
-\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 SA\OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; chosen
-forthehighestidentity\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 cftablex\OT1/cmr/m/n/10 
-)\OML/cmm/m/it/10 ; mostrecentlyreviewedandmorecompleteamongallcrystalstructure
-s\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 despitebeingacurvedconformation\OT1/cmr/m/n/
-10 )\OML/cmm/m/it/10 :Itisalsothebeststructureoftubulinalreadyintegratedinthemo
-deldatabaseoftheModellerprogramwhichweusedforthemodelizationprocess\OT1/cmr/m/n
-/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 14)\O
-ML/cmm/m/it/10 :\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Thetubulintypemodelalreadypre
-sentintheModellerv\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 14\OML/cmm
-/m/it/10 databaseare\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 SA\OT1/cmr/m/n/10 0\OML/c
-mm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 TUBandFtZlikedomainmodels; thepr
-okaryotecounterpartofthetubulin\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :Modellerproce
-ssisbasedontheclassiccomparativemodelingmethodwhichconsistsoffoursequentialstep
-s \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (254.71368pt too wide) in paragraph at lines 74--106
-\OML/cmm/m/it/10 templateselection; template \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it
-/10 targetalignment; modelbuildingandfinallymodelevalutaion:Forthetemplateselec
-tion; Modellerusethe\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 D \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (3628.64784pt too wide) in paragraph at lines 74--106
-\OML/cmm/m/it/10 templatematchingmethod\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pariwi
-sealignementwithknownstructureonly; presentinanassociateddatabase\OT1/cmr/m/n/1
-0 )\OML/cmm/m/it/10 :Thenextstepconsistofanalignmentbetweenthequerysequenceandt
-hestructuretemplate:Inourcase; thesimilaritybelongtothebestpossibletemplatealig
-nement; soitdonotneedanymanualrearrangementsregardinggaps:Themodelbuildingdepen
-dontheglobalalignmentqualityandtheoverallcompletenessbutinmodellerthemethodused
-isamodelizationbysatisfactionofspatialrestraints:Thetemplateisusedtogeneratease
-tofspatialcontraintsandrestraintstoserveasaguideforthenewmodelconstructionwitht
-healignment:InthecaseofModeller; themainconstraintsaredihedralanglesanddistance
-; assumingalignedresiduesinthetargetaresubmittedtothesamecontraintsthaninthetem
-plate:Antwostepsoptimisationisthenperformedbyaddingstereochemicalconstaintsinth
-emodel\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 bondlengths; bondangles; non \OMS/cmsy/
-m/n/10 ^^@
- []
-
-
-Overfull \hbox (1589.13033pt too wide) in paragraph at lines 74--106
-\OML/cmm/m/it/10 bondedcontacts; etc\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 inthefirs
-tplacefollowedbyaminimizationofalltheviolationsoftherestraints:Forthetailsbuild
-ing; Modellerproceedbydoingan[]methodwhichcanbeseenasaproteinfoldingproblemfors
-mallpeptide:Itisaconformationalsearchinagivenenvironmentguidedbyanenergyfunctio
-n:Loopsinthemodelaretreatedwiththesamemethod:Thelaststepofthemodelizationproces
-sisthemodelevaluation:Modellerusemultiplebuilt \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (2261.07893pt too wide) in paragraph at lines 74--106
-\OML/cmm/m/it/10 inscoringfunctions \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 molPDF; 
-DOPEandGA\OT1/cmr/m/n/10 341\OML/cmm/m/it/10 scores:molPDFandDOPEscoreareenergi
-es; thelowertheyare; thebetteristhemodel; andGA\OT1/cmr/m/n/10 341\OML/cmm/m/it
-/10 takeavaluebetween\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0\OML/c
-mm/m/it/10 and\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0(1\OML/cmm/m/
-it/10 :\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 isthebestvalue\OT1/cmr/m/n/10 )\OML/cm
-m/m/it/10 :\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ajoutertableausdesscores\OT1/cmr/m
-/n/10 ?)\OML/cmm/m/it/10 ThehumantubulinsequenceswereobtainedontheUniProtKBwebs
-iteandcanbefoundwiththeaccessionnumberQ\OT1/cmr/m/n/10 71\OML/cmm/m/it/10 U\OT1
-/cmr/m/n/10 36\OML/cmm/m/it/10 forthesubunit; Q\OT1/cmr/m/n/10 9\OML/cmm/m/it/
-10 H\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 andQ\O
-T1/cmr/m/n/10 13509\OML/cmm/m/it/10 forthe^^L\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 
-and^^L\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 subunitsrespectively:Afterthemodelizati
-onofeachpartindependently; wereassembledthemasastraighttubulindimerwithaspatial
-alignmentonthebestresolutioncrystalforthisconformation\OT1/cmr/m/n/10 (\OML/cmm
-/m/it/10 PDBentry \OT1/cmr/m/n/10 :
- []
-
-[1
+) ABD: EveryShipout initializing macros [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110      & \alpha
-                   1 (Q71U36) & \beta1 (Q9H4B7) & \beta3 (Q13509) \\
+! Undefined control sequence.
+<recently read> \alhpa 
+                       
+l.62 $\alhpa
+            1\beta3$ isotypes. Furthermore, we investigated the C-termini of...
+
 ? 
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.110      & \alpha1 (Q71U36) &
-                                \beta1 (Q9H4B7) & \beta3 (Q13509) \\
+! Undefined control sequence.
+l.95 ...lding, Modeller proceed by doing an \texit
+                                                  {Ab-initio}
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110      & \alpha1 (Q71U36) &
-                                \beta1 (Q9H4B7) & \beta3 (Q13509) \\
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.110      & \alpha1 (Q71U36) &
-                                \beta1 (Q9H4B7) & \beta3 (Q13509) \\
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110      & \alpha1 (Q71U36) & \beta
-                                     1 (Q9H4B7) & \beta3 (Q13509) \\
-? 
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.110      & \alpha1 (Q71U36) & \beta1 (Q9H4B7) &
-                                                  \beta3 (Q13509) \\
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110      & \alpha1 (Q71U36) & \beta1 (Q9H4B7) &
-                                                  \beta3 (Q13509) \\
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.110      & \alpha1 (Q71U36) & \beta1 (Q9H4B7) &
-                                                  \beta3 (Q13509) \\
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.110      & \alpha1 (Q71U36) & \beta1 (Q9H4B7) &
-                                                  \beta3 (Q13509) \\
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110 ...alpha1 (Q71U36) & \beta1 (Q9H4B7) & \beta
-                                                  3 (Q13509) \\
-? 
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.111     \hline
-                
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.111     \hline
-                
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.111     \hline
-                
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.112     1SA0 & \% sim & \% sim &
-                                   \% sim \\
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.114     1JFF &  &  &
-                        \\
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.116     1TUB &  &  &
-                        \\
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.153 the \beta
-                subunit), which are the parts of interest in this study, cla...
+[2]
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127   \caption
+                {Alignment scoring for all possible candidate templates. PDB...
 
 ? 
 
-LaTeX Warning: Command \r invalid in math mode on input line 157.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.158 
-      
-? 
-
-Overfull \hbox (1908.48312pt too wide) in paragraph at lines 152--158
-\OT1/cmr/m/n/10 of the C-termini (mostly the one of the $\OML/cmm/m/it/10 ^^Lsu
-bunit\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; whicharethepartsofinterestinthisstudy;
- classicalsmethodscannotbeapplieddirectly:Wemademultiplesanalysisregardingtheor
-ientation; radiusofgyration; contactswiththerestofthedimertohaveapreselectionof
-subgroups:Thesesubgroupswerethensubmittedindependentlytoclassicalhierarchicalcl
-usteringmethod\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Gromosalgorithm\OT1/cmr/m/n/10 
-)\OML/cmm/m/it/10 inordertoobtainrepresentativesstructuresofdifferentsstatesenc
-ounteredduringthesimulations:Cutofffortheclusteringwas\OT1/cmr/m/n/10 1\OML/cmm
-/m/it/10 :\OT1/cmr/m/n/10 5[]\OML/cmm/m/it/10 :$ 
+Overfull \hbox (9.15707pt too wide) in paragraph at lines 110--130
+ [] 
  []
 
+[3]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.168 ... C-terminal tail orientation and folding}
+l.179 ... C-terminal tail orientation and folding}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.168 ... C-terminal tail orientation and folding}
+l.179 ... C-terminal tail orientation and folding}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.172 ...-subunt C-terminal with the tubulin core}
+l.183 ...-subunt C-terminal with the tubulin core}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.172 ...-subunt C-terminal with the tubulin core}
+l.183 ...-subunt C-terminal with the tubulin core}
                                                   
 ? 
-[2] [3] (./main.aux) ) 
+[4] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 10728 strings out of 495028
- 195250 string characters out of 1181229
- 251910 words of memory out of 3000000
- 13705 multiletter control sequences out of 15000+50000
+ 10731 strings out of 495028
+ 195271 string characters out of 1181229
+ 243915 words of memory out of 3000000
+ 13708 multiletter control sequences out of 15000+50000
  10507 words of font info for 38 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 63i,8n,57p,416b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (3 pages, 140500 bytes).
+ 63i,7n,57p,416b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (4 pages, 132114 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

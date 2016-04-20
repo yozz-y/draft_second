@@ -6,8 +6,8 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 
-\title{A comparative investigation of the C-terminal tails mobility in the \beta~I
-and \beta~III isoformsof tubulin.}
+\title{A comparative investigation of the C-terminal tails mobility in the $\beta~I$
+and $\beta~III$ isoforms of tubulin.}
 
 \author{Laurin Y.}
 
@@ -22,9 +22,9 @@ Your abstract.
 
 \section{Introduction}
 
-Tubulin, a structural protein \alpha/\beta heterodimer, is the building block of
-microtubules (MT). Each subunit \alpha and \beta is expressed in the cell by multiple
-genes which lead to different isotypes (up to 8 for the human \beta subunit). (ref)
+Tubulin, a structural protein $\alpha/\beta$ heterodimer, is the building block of
+microtubules (MT). Each subunit $\alpha$ and $\beta$ is expressed in the cell by multiple
+genes which lead to different isotypes (up to 8 for the human $\beta$ subunit). (ref)
 Most of the time, isotypes are highly conserved during evolution suggesting a functional
 importance. Tubulins are arranged in a head-to-tail fashion to form 13 protofilaments
 constituting the MTs. Mts exhibit a dynamic instability which is essential for their
@@ -41,11 +41,11 @@ example, binds to MTs and stabilizes the MTs already formed preventing the depol
 At the opposite, vinca alkaloïds (vinblastine) and colchicin prevent the polymerisation (ref).
 
 %add infos about isotypes tails
-Despite the fact that most clinical tubulin binding drugs target the \beta subunit
+Despite the fact that most clinical tubulin binding drugs target the $\beta$ subunit
 of the dimer, an important issue is left unanswered regarding the tubulin
 isotypes which should be specifically targeted in cancer chemotherapy (ref). Indeed,
 recent studies show that glioblastomas, the most common primary brain tumors, exhibit
-an abnormal \beta subunit expression with an proliferation of the class III \beta-tubulin,
+an abnormal $\beta$ subunit expression with an proliferation of the class III $\beta$-tubulin,
 which is associated with highly malignant tumor phenotype. This over expression is also
 related with a paclitaxel resistance (ref). The selectivity of this particular isotype could be
 a key to a successful drug design process.
@@ -58,8 +58,8 @@ MTs functionality, such as formation of MT, interaction with microtubule associa
 kinesin, acting as a lasso (ref). It is also a hotspot for posttranslational modifications
 (polyglutamylation, tyrosination, phosphorylation, etc) (ref).
 
-We present a modelisation process of two complete human tubulins of \alpha1\beta1 and
-\alhpa1\beta3 isotypes. Furthermore, we investigated the C-termini of \beta subunit
+We present a modelisation process of two complete human tubulins of $\alpha1\beta1$ and
+$\alhpa1\beta3$ isotypes. Furthermore, we investigated the C-termini of $\beta$ subunit
 structural organisation and interaction with the core parts of the tubulin, using
 multiple molecular dynamic simulations. Our results show... To be continued.
 
@@ -71,7 +71,7 @@ multiple molecular dynamic simulations. Our results show... To be continued.
 %beta1 sequence id => Q9H4B7
 %beta3 sequence id => Q13509
 
-For this study, we have modeled two different tubulin isotypes, the \alpha1\beta1 and the \alpha1\beta3. Each
+For this study, we have modeled two different tubulin isotypes, the $\alpha1\beta1$ and the $\alpha1\beta3$. Each
 subunit was modeled independently with the same template, a double dimer in complex with the stathmin
 (PDB entry : 1SA0), chosen for high identity and similarity (cf table x), most recently reviewed and more complete
 among all crystal structures (despite being a curved conformation). It is also the best structure of tubulin
@@ -83,7 +83,8 @@ sequential steps : template selection, template-target alignment, model building
 model evalutaion. For the template selection, Modeller use the 3D-template matching method
 (pariwise alignement with known structure only, present in an associated database). The next
 step consist of an alignment between the query sequence and the structure template. In our
-case, the similarity belong to the best possible template alignement, so it do not need any manual
+case, the similarity belong to the best possible template alignement (indentity $>$ 75\%, similarity $>$ 90\%),
+so it do not need any manual
 rearrangements regarding gaps. The model building depend on the global alignment quality and the overall
 completeness but in modeller the method used is a modelization by satisfaction of spatial restraints.
 The template is used to generate a set of spatial contraints and restraints to serve as a guide for
@@ -100,31 +101,32 @@ is the model, and GA341 take a value between 0.0 and 1.0 (1.0 is the best value)
 pour les modèles réalisés ?)
 %The modelisation process was done with the program Modeller v9.14 (ref modeller).
 The human tubulin sequences were obtained on the UniProtKB
-website and can be found with the accession number Q71U36 for the \alpha subunit, Q9H4B7 and Q13509
-for the \beta1 and \beta3 subunits respectively. After the modelization of each part independently, we reassembled them
+website and can be found with the accession number Q71U36 for the $\alpha$ subunit, Q9H4B7 and Q13509
+for the $\beta1$ and $\beta3$ subunits respectively. After the modelization of each part independently, we reassembled them
 as a straight tubulin dimer with a spatial alignment on the best resolution crystal for this conformation
 (PDB entry : 1JFF, the PDB we used in our previous study).
 
 \begin{center}
-  \begin{tabular}{|c|c|c|}
+  \begin{tabular}{|c|c|c|c|}
     \hline
-     & \alpha1 (Q71U36) & \beta1 (Q9H4B7) & \beta3 (Q13509) \\
+     & $\alpha1$ (Q71U36) & $\beta1$ (Q9H4B7) & $\beta3$ (Q13509) \\
     \hline
-    1SA0 \alpha (Q2HJ86) & 446/5 (98.673\%) & \% sim & \% sim \\
+    1SA0 $\alpha$ (Q2HJ86) & 446/5 (98.673\%) & / & / \\
     \hline
-    1SA0 \beta (Q6B856) & & 352/68 (78.049\%) & 408/31 (90.667\%) \\
+    1SA0 $\beta$ (Q6B856) & / & 352/68 (78.049\%) & 408/31 (90.667\%) \\
     \hline
-    1TUB \alpha (P02550) & 448/2 (99.335\%) & & \\
+    1TUB $\alpha$ (P02550) & 448/2 (99.335\%) & / & \\
     \hline
-    1TUB \beta (P02554) &  & 350/68 (77.605\%) & 412/27 (91.556\%) \\
+    1TUB $\beta$ (P02554) & / & 350/68 (77.605\%) & 412/27 (91.556\%) \\
     \hline
-    1JFF \alpha (P81947) & 449/2 (99.557\%) & & \\
+    1JFF $\alpha$ (P81947) & 449/2 (99.557\%) & / & \\
     \hline
-    1JFF \beta (Q6B856) & & 352/68 (78.049\%) & 408/31 (90.667\%) \\
+    1JFF $\beta$ (Q6B856) & / & 352/68 (78.049\%) & 408/31 (90.667\%) \\
     \hline
   \end{tabular}
   \caption{Alignment scoring for all possible candidate templates. PDB ID (UniProtKB ID), identic positions/similar
-  positions (idendity percentage).}
+  positions (idendity percentage). These scores are calculated strictly on sequence found in UniProtKB and do
+  not take into account other criterions like completness of the 3D structure or structural resolution.}
 \end{center}
 
 \subsection{Molecular dynamics simulation}
@@ -159,7 +161,7 @@ After obtaining the simulation data, we processed them with the Gromacs 5.0.4 ut
 with VMD 1.9 for the graphical part. Most of the more complexes analysis were made with homemade scripts/programs.
 
 For the clustering part, it was a two step process. Due to the high flexibility of the C-termini (mostly the one of
-the \beta subunit), which are the parts of interest in this study, classicals methods can not be applied directly.
+the $\beta$ subunit), which are the parts of interest in this study, classicals methods can not be applied directly.
 We made multiples analysis regarding the orientation, radius of gyration, contacts with the rest of the dimer to have
 a preselection of subgroups. These subgroups were then submitted independently to classical hierarchical clustering
 method (Gromos algorithm) in order to obtain representatives structures of differents states encountered during the
