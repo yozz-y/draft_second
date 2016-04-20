@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 17:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 17:23
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -609,41 +609,46 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Cskip=\skip48
 )
 \c@@todonotes@numberoftodonotes=\count124
+)
+(/usr/share/texmf-texlive/tex/latex/slashbox/slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box37
+\@slashboxb=\box38
+\@slashboxc=\box39
+\@slashboxwd=\count125
+\@slashboxht=\count126
+\@slashsepl=\dimen160
+\@slashsepr=\dimen161
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen160
-\scratchbox=\box37
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\scratchcounter=\count127
+\scratchdimen=\dimen162
+\scratchbox=\box40
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen161
-\MPnumerator=\count129
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen163
+\MPnumerator=\count131
 \everyMPtoPDFconversion=\toks34
 ) ABD: EveryShipout initializing macros [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-! Undefined control sequence.
-l.95 ...lding, Modeller proceed by doing an \texit
-                                                  {Ab-initio}
-? 
-[2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
 ! LaTeX Error: \caption outside float.
 
@@ -651,24 +656,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127   \caption
+l.130   \caption
                 {Alignment scoring for all possible candidate templates. PDB...
 
 ? 
 
-Overfull \hbox (9.15707pt too wide) in paragraph at lines 110--130
+Overfull \hbox (13.66731pt too wide) in paragraph at lines 112--133
  [] 
  []
 
 [3] [4] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 10730 strings out of 495028
- 195266 string characters out of 1181229
- 243915 words of memory out of 3000000
- 13707 multiletter control sequences out of 15000+50000
+ 10752 strings out of 495028
+ 195643 string characters out of 1181229
+ 244439 words of memory out of 3000000
+ 13725 multiletter control sequences out of 15000+50000
  10507 words of font info for 38 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 63i,7n,57p,416b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,12n,57p,437b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -676,10 +681,11 @@ texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/typ
 e1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 119945 bytes).
+r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on main.pdf (4 pages, 123285 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

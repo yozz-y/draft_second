@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage{slashbox}
 
 \title{A comparative investigation of the C-terminal tails mobility in the $\beta~I$
 and $\beta~III$ isoforms of tubulin.}
@@ -35,7 +36,7 @@ As a consequence of this key role, tubulin is a well known target for some of th
 most successful anti-tumor drugs, such as taxanes, vinca alkaloïds or colchicin (refs).
 After cellular uptake, microtubule network will be the target to distrupt chromatid
 separation thus preventing the meiosis. Cytotoxic agents will interfere with MT
-dynamics by inhibiting the polymerisation or depolymerisation of dimers of MT, leading
+dynamic by inhibiting the polymerisation or depolymerisation of dimers of MT, leading
 to inhibition of the cancer cell division and proliferation (ref). Paclitaxel (Taxol), for
 example, binds to MTs and stabilizes the MTs already formed preventing the depolymerisation (ref).
 At the opposite, vinca alkaloïds (vinblastine) and colchicin prevent the polymerisation (ref).
@@ -61,7 +62,7 @@ kinesin, acting as a lasso (ref). It is also a hotspot for posttranslational mod
 We present a modelisation process of two complete human tubulins of $\alpha1\beta1$ and
 $\alpha1\beta3$ isotypes. Furthermore, we investigated the C-termini of $\beta$ subunit
 structural organisation and interaction with the core parts of the tubulin, using
-multiple molecular dynamic simulations. Our results show... To be continued.
+multiple molecular dynamics simulations. Our results show... To be continued.
 
 \section{Material and methods}
 
@@ -73,7 +74,8 @@ multiple molecular dynamic simulations. Our results show... To be continued.
 
 For this study, we have modeled two different tubulin isotypes, the $\alpha1\beta1$ and the $\alpha1\beta3$. Each
 subunit was modeled independently with the same template, a double dimer in complex with the stathmin
-(PDB entry : 1SA0), chosen for high identity and similarity (cf table x), most recently reviewed and more complete
+(PDB entry : 1SA0), chosen for high identity and similarity (cf table~\ref{table_identity}), most recently reviewed
+and more complete
 among all crystal structures (despite being a curved conformation). It is also the best structure of tubulin
 already integrated in the template database of the Modeller program which we used for the modelization process (v9.14).
 (The tubulin type template already present in the Modeller v9.14 database are 1SA0, 1TUB and FtZ like domain models, the
@@ -92,11 +94,11 @@ the new model construction with the alignment. In the case of Modeller, the main
 dihedral angles and distance, assuming aligned residues in the target are submitted to the same contraints
 than in the template. An two steps optimisation is then performed by adding stereochemical constaints in the
 model (bond lengths, bond angles, non-bonded contacts, etc) in the first place followed by a minimization
-of all the violations of the restraints. For the tails building, Modeller proceed by doing an \texit{Ab-initio}
+of all the violations of the restraints. For the tails building, Modeller proceed by doing an \textit{Ab initio}
 method which can be seen as a protein folding problem for small peptide. It is a conformational search
 in a given environment guided by an energy function. Loops in the model are treated with the same method.
 The last step of the modelization process is the model evaluation. Modeller use multiple built-in scoring
-functions : molPDF, DOPE and GA341 scores. MolPDF and DOPE score are energies, then the lower they are, the better
+functions : molPDF, DOPE and GA341 scores (ref). MolPDF and DOPE score are energies, then the lower they are, the better
 is the model, and GA341 take a value between 0.0 and 1.0 (1.0 is the best value). (ajouter tableau des scores
 pour les modèles réalisés ?)
 %The modelisation process was done with the program Modeller v9.14 (ref modeller).
@@ -109,7 +111,7 @@ as a straight tubulin dimer with a spatial alignment on the best resolution crys
 \begin{center}
   \begin{tabular}{|c|c|c|c|}
     \hline
-     & $\alpha1$ (Q71U36) & $\beta1$ (Q9H4B7) & $\beta3$ (Q13509) \\
+     \backslashbox {Template} {Target} & $\alpha1$ (Q71U36) & $\beta1$ (Q9H4B7) & $\beta3$ (Q13509) \\
     \hline
     1SA0 $\alpha$ (Q2HJ86) & 446/5 (98.673\%) & / & / \\
     \hline
@@ -124,6 +126,7 @@ as a straight tubulin dimer with a spatial alignment on the best resolution crys
     1JFF $\beta$ (Q6B856) & / & 352/68 (78.049\%) & 408/31 (90.667\%) \\
     \hline
   \end{tabular}
+  \label{table_identity}
   \caption{Alignment scoring for all possible candidate templates. PDB ID (UniProtKB ID), identic positions/similar
   positions (idendity percentage). These scores are calculated strictly on sequence found in UniProtKB and do
   not take into account other criterions like completness of the 3D structure or structural resolution.}
@@ -131,7 +134,7 @@ as a straight tubulin dimer with a spatial alignment on the best resolution crys
 
 \subsection{Molecular dynamics simulation}
 
-After this step, we submitted all models previously obtained to classic molecular dynamic simulation (five
+After this step, we submitted all models previously obtained to classic molecular dynamics simulation (five
 models for each isotypes modeled) in order to relax the structure and to explore the structural variability
 of the C-termini newly modeled. The simulation were made with Gromacs 5.0.4 with the OPLS-AA forcefield in,
 periodic boundary condition. The procedure consist of two steps of minimization, the first one is an
