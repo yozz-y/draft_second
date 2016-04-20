@@ -73,7 +73,7 @@ multiple molecular dynamic simulations. Our results show... To be continued.
 
 For this study, we have modeled two different tubulin isotypes, the \alpha1\beta1 and the \alpha1\beta3. Each
 subunit was modeled independently with the same template, a double dimer in complex with the stathmin
-(PDB entry : 1SA0), chosen for the highest identity (cf table x), most recently reviewed and more complete
+(PDB entry : 1SA0), chosen for high identity (cf table x), most recently reviewed and more complete
 among all crystal structures (despite being a curved conformation). It is also the best structure of tubulin
 already integrated in the model database of the Modeller program which we used for the modelization process (v9.14).
 (The tubulin type model already present in the Modeller v9.14 database are 1SA0, 1TUB and FtZ like domain models, the
@@ -96,7 +96,7 @@ method which can be seen as a protein folding problem for small peptide. It is a
 in a given environment guided by an energy function. Loops in the model are treated with the same method.
 The last step of the modelization process is the model evaluation. Modeller use multiple built-in scoring
 functions : molPDF, DOPE and GA341 scores. MolPDF and DOPE score are energies, then the lower they are, the better
-is the model, and GA341 take a value between 0.0 and 1.0 (1.0 is the best value). (ajouter tableau des scores 
+is the model, and GA341 take a value between 0.0 and 1.0 (1.0 is the best value). (ajouter tableau des scores
 pour les modèles réalisés ?)
 %The modelisation process was done with the program Modeller v9.14 (ref modeller).
 The human tubulin sequences were obtained on the UniProtKB
@@ -110,11 +110,17 @@ as a straight tubulin dimer with a spatial alignment on the best resolution crys
     \hline
      & \alpha1 (Q71U36) & \beta1 (Q9H4B7) & \beta3 (Q13509) \\
     \hline
-    1SA0 & \% sim & \% sim & \% sim \\
+    1SA0 \alpha (Q2HJ86) & 446/5 (98.673\%) & \% sim & \% sim \\
     \hline
-    1JFF &  &  &  \\
+    1SA0 \beta (Q6B856) & & 352/68 (78.049\%) & 408/31 (90.667\%) \\
     \hline
-    1TUB &  &  &  \\
+    1TUB \alpha (P02550) & 448/2 (99.335\%) & & \\
+    \hline
+    1TUB \beta (P02554) &  & 350/68 (77.605\%) & 412/27 (91.556\%) \\
+    \hline
+    1JFF \alpha (P81947) & 449/2 (99.557\%) & & \\
+    \hline
+    1JFF \beta (Q6B856) & & 352/68 (78.049\%) & 408/31 (90.667\%) \\
     \hline
   \end{tabular}
 \end{center}
