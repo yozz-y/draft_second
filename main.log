@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 16:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 17:07
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -640,13 +640,6 @@ LaTeX Font Info:    ... okay on input line 16.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ! Undefined control sequence.
-<recently read> \alhpa 
-                       
-l.62 $\alhpa
-            1\beta3$ isotypes. Furthermore, we investigated the C-termini of...
-
-? 
-! Undefined control sequence.
 l.95 ...lding, Modeller proceed by doing an \texit
                                                   {Ab-initio}
 ? 
@@ -667,52 +660,26 @@ Overfull \hbox (9.15707pt too wide) in paragraph at lines 110--130
  [] 
  []
 
-[3]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.179 ... C-terminal tail orientation and folding}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.179 ... C-terminal tail orientation and folding}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.183 ...-subunt C-terminal with the tubulin core}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.183 ...-subunt C-terminal with the tubulin core}
-                                                  
-? 
-[4] (./main.aux) ) 
+[3] [4] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 10731 strings out of 495028
- 195271 string characters out of 1181229
+ 10730 strings out of 495028
+ 195266 string characters out of 1181229
  243915 words of memory out of 3000000
- 13708 multiletter control sequences out of 15000+50000
+ 13707 multiletter control sequences out of 15000+50000
  10507 words of font info for 38 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  63i,7n,57p,416b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 132114 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (4 pages, 119945 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
