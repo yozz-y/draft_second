@@ -91,12 +91,13 @@ the new model construction with the alignment. In the case of Modeller, the main
 dihedral angles and distance, assuming aligned residues in the target are submitted to the same contraints
 than in the template. An two steps optimisation is then performed by adding stereochemical constaints in the
 model (bond lengths, bond angles, non-bonded contacts, etc) in the first place followed by a minimization
-of all the violations of the restraints. For the tails building, Modeller proceed by doing an \texit{Ab-initio} 
+of all the violations of the restraints. For the tails building, Modeller proceed by doing an \texit{Ab-initio}
 method which can be seen as a protein folding problem for small peptide. It is a conformational search
 in a given environment guided by an energy function. Loops in the model are treated with the same method.
 The last step of the modelization process is the model evaluation. Modeller use multiple built-in scoring
-functions : molPDF, DOPE and GA341 scores. molPDF and DOPE score are energies, the lower they are, the better
-is the model, and GA341 take a value between 0.0 and 1.0 (1.0 is the best value). (ajouter tableaus des scores ?)
+functions : molPDF, DOPE and GA341 scores. MolPDF and DOPE score are energies, then the lower they are, the better
+is the model, and GA341 take a value between 0.0 and 1.0 (1.0 is the best value). (ajouter tableau des scores 
+pour les modèles réalisés ?)
 %The modelisation process was done with the program Modeller v9.14 (ref modeller).
 The human tubulin sequences were obtained on the UniProtKB
 website and can be found with the accession number Q71U36 for the \alpha subunit, Q9H4B7 and Q13509
