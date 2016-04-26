@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  20 APR 2016 17:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.4.15)  26 APR 2016 14:59
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -619,7 +619,14 @@ slashbox style by K.Yasuoka, May 1993.
 \@slashboxht=\count126
 \@slashsepl=\dimen160
 \@slashsepr=\dimen161
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `score_a1' multiply defined.
+
+
+LaTeX Warning: Label `score_a1' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -665,25 +672,75 @@ Overfull \hbox (13.66731pt too wide) in paragraph at lines 109--130
  [] 
  []
 
-[3] [4] (./main.aux) ) 
+[3]
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187   \caption
+                {score for model of $\alpha1$}
+? 
+
+Overfull \hbox (16.5561pt too wide) in paragraph at lines 177--188
+ [] 
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201   \caption
+                {score for model of $\beta1$}
+? 
+
+Overfull \hbox (16.5561pt too wide) in paragraph at lines 191--202
+ [] 
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215   \caption
+                {score for model of $\beta3$}
+? 
+
+Overfull \hbox (16.5561pt too wide) in paragraph at lines 205--216
+ [] 
+ []
+
+[4] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 10752 strings out of 495028
- 195643 string characters out of 1181229
- 244439 words of memory out of 3000000
- 13725 multiletter control sequences out of 15000+50000
+ 10753 strings out of 495028
+ 195653 string characters out of 1181229
+ 244488 words of memory out of 3000000
+ 13726 multiletter control sequences out of 15000+50000
  10507 words of font info for 38 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  63i,12n,57p,437b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (4 pages, 123267 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on main.pdf (4 pages, 124420 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
