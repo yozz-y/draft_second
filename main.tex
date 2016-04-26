@@ -172,6 +172,16 @@ simulations. Cutoff for the clustering was 1.5 {\AA}.
 \subsection{Model building}
 
 %discussion about similarity with existing model in databases, main differences b1/b3
+When the modelisation step is over, Modeller provides multiples metrics to asses the
+models generated. In our case, we took the 5 best rated models by Modeller for
+each subunit. DOPE score and MolPDF score can be found in table~\ref{score_a1,
+score_b1, score_b3}. As said in the Methods part, these scores are energies, so we
+want them to be the lowest possible. From the table, we can see that rankings are not
+always the same for MolPDF and DOPE score, but the changes are minimal for all the models
+generated. We can deduce that each models should be correct regarding known parts of the
+tubulin (i.e. not the CTT), without much variability except side chains, the main
+differences coming from intrinsically disordered region forming the CTT which is
+quite small compared to the rest of the molecule.
 
 \begin{center}
   \begin{tabular} {|c|c|c|c|c|c|}
@@ -197,7 +207,7 @@ simulations. Cutoff for the clustering was 1.5 {\AA}.
     MolPDF score & 4442.23 & 4423.80 & 4270.78 & 4591.98 & 4487.63 \\
     \hline
   \end{tabular}
-  \label{score_a1}
+  \label{score_b1}
   \caption{score for model of $\beta1$}
 \end{center}
 
@@ -211,7 +221,7 @@ simulations. Cutoff for the clustering was 1.5 {\AA}.
     MolPDF score & 4254.95 & 4408.62 & 4328.90 & 4536.73 & 4429.58 \\
     \hline
   \end{tabular}
-  \label{score_a1}
+  \label{score_b3}
   \caption{score for model of $\beta3$}
 \end{center}
 
